@@ -20,6 +20,7 @@ class CustomerAdd extends React.Component {
         this.addCustomer = this.addCustomer.bind(this)
     }
 
+    // アップロード処理
     handleFormSubmit(e) {
         e.preventDefault()
         this.addCustomer()
